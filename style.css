@@ -11,3 +11,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: "Outfit", sans-serif;
+    background: var(--slate-300);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 100%;
+    max-width: 320px;
+    height: 499px;
+}
+.card {
+    padding: 16px;
+    border-radius: var(--border);
+    background-color: var(--white);
+}
+.qr-container {
+    width: 100%;
+    height: 288px;
+    border-radius: var(--border);
+    background-color: #2c7dfa;
+    margin-bottom: 24px;
+}
+h1 {
+    font-size: 22px;
+    color: var(--slate-900);
+    text-align: center;
+    margin-bottom: 16px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+p {
+    text-align: center;
+    color: var(--slate-500);
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    font-weight: normal;
+}
