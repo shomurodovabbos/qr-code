@@ -35,6 +35,9 @@ body {
     border-radius: var(--border);
     background-color: #2c7dfa;
     margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h1 {
     font-size: 22px;
